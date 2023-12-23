@@ -1,0 +1,80 @@
+.sidebar{
+    position: fixed;
+    ;
+    background-color: rgb(7, 7, 17);
+    max-width: 30vw;
+    height: 800px;
+    overflow-y: scroll;
+    width: 100%;
+    top: 250px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    right: 0;
+    transform: translateX(20000px);
+    transition: transform 0.8s linear;
+    z-index: 1000;
+    @media (max-width:768px){
+      max-width: 100%;
+  }
+ 
+}
+.wishlist {
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    padding: 20px;
+    @media (max-width:768px) {
+      .wishlist-container{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+    }
+    .movie {
+        display: flex;
+
+        justify-content: space-between;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+        width: 300px;
+        height: 150px;
+        background-color: #fff;
+      
+        img {
+          width: 100px;
+          object-fit: cover;
+          height: auto;
+          margin-right: 10px;
+        }
+      
+        div {
+          flex-grow: 1;
+      
+          span {
+            font-weight: bold;
+          }
+      
+          p {
+            margin: 5px 0;
+          }
+      
+          button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 5px;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+        }
+      }
+      
+      h2 {
+        text-align: center;
+        color: #ddd;
+        
+      }
+      
+  }
+  
+  

@@ -1,0 +1,166 @@
+
+
+.movie_slider_card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: transform  1.3s ease-in-out;
+}
+.movie_slider_card{
+ 	background: linear-gradient(to bottom, #3F567C, #090b0b) no-repeat;
+     max-width: 450px;
+	height: 250px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding: 20px;
+	color: #A9A8A3;
+    .container{
+        width: 450px;
+        height: 250px;
+        overflow-y: scroll;
+        border-radius:5px;
+        border-radius:5px;
+        background: #F0F0ED;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(147, 125, 125, 0.19);
+        position: relative;
+        .info{
+            h2{
+                text-decoration: none;
+                color: #010b1d;
+               ;
+            }
+            a:hover{
+                text-decoration:underline;
+            }
+            .text{
+               padding: 10px 20px;
+               font-size: 18px;
+               color: rgb(2, 46, 104);
+            }
+            .cast{
+                margin-left: 10px;
+                padding-top: 35px;
+                img{
+                border-radius:50px;
+                cursor: pointer;
+                border: 3px solid white;
+        
+                }	
+                img:hover{
+                    opacity:0.6;
+                }
+                a:hover{
+                    text-decoration: none;
+                }
+            }
+          
+        }
+        .guide{
+        	text-align: left;
+        	padding-top: 200px;
+        	padding-left: 10px;
+        }
+        .guide a {
+        	color:#A9A8A3;
+        }
+        .guide a:hover{
+        	color: #bdbdbd;
+        }
+
+        .cover{
+            height:250px;
+            position: relative;
+             overflow: hidden;
+            z-index:1;
+            margin:0;
+            border-top-left-radius:5px;
+            border-top-right-radius:5px;
+            .columntag{
+	              padding-top: 100px;
+                  .tag1, .tag2, .tag3{
+                    background: white;
+                      border-radius: 10px;
+                      font-size: 14px;
+                      cursor: pointer;
+                      line-height: 16px;
+                      padding: 3px 8px;
+                      float:left;
+                      position: relative;
+                    }
+                    .tag1{
+                    	margin-left: 1px;
+                    }
+                    .tag2{
+                    	margin-top:25px;
+                    	margin-left: -60px;
+                    }
+                    .tag3{
+                    	margin-top:50px;
+                    	margin-left: -45px;
+                    }
+                    .tag1:hover{
+                    	background: #ddd;
+                    }.tag2:hover{
+                    	background: #ddd;
+                    }
+                    .tag3:hover{
+                    	background: #ddd;
+                    }
+               }
+            .menu{
+            	text-align: center;
+            	z-index:1;
+                 .fa{
+        	      color: #ffea00;
+               }
+               .title{
+                	color: rgb(125, 207, 3);
+                    font-style: oblique;
+                	font-size: 44px;
+                }
+                
+            }
+
+        }
+        .cover:before {
+            content:'';
+            width:100%;
+            height:100%;
+            position:absolute;
+            overflow: hidden;
+            top:0; 
+            left:0;
+            z-index: -1;
+            transform: skewX(20deg);
+            border-bottom-left-radius: 20px;
+            transform-origin:0 0;
+            // background: url("https://i.guim.co.uk/img/media/21ed448c50dc2c89b2024e8ade322e08bf40e7af/1195_0_7394_4440/master/7394.jpg?w=620&q=55&auto=format&usm=12&fit=max&s=21f8079a80fcce5bc3706652428a4f1a") ;
+            background-position: center;
+            background-repeat: no-repeat;
+	}
+        
+     
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

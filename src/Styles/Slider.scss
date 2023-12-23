@@ -1,0 +1,35 @@
+.slider_main{
+
+    max-width: 100%;
+  
+    position: relative;
+    button{
+        z-index: 1;
+        cursor: pointer;
+        padding: 0.5rem 2rem;
+        border: 1px solid #ddd;
+        outline: none;
+        color: white;
+        background-color: #5C7FB8;
+    }
+    .slider_right_btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+  
+    }
+    .slider_left_btn{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        
+    }
+    .slider_container{
+        vertical-align: middle;
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        // width: 50%;
+        
+    }
+}
